@@ -13,15 +13,38 @@ Welcome to the repository for my custom Redis-like server built from scratch usi
 
 ## Getting Started
 
-### Prerequisites
+## Prerequisites
 
 - Node.js (v12 or later)
 
-### Installation
+## Installation
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/Abhinavy789/Redis-Server.git
+
+2. Install the dependencies:
+   ```bash
+   npm i
+
+3. Install the parser:
+   ```bash
+   npm i redis-parser
+
+4. Running the Server:
+   ```bash
+   node index.js
+
+5. Running the Client (Run this on your terminal) :
+   ```bash
+   redis-cli -p 8000
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+
+
 
 
